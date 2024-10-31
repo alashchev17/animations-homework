@@ -23,6 +23,7 @@ This project demonstrates various animations and interactive elements using HTML
 ## Usage
 
 1. Open the `index.html` file in your web browser to view the project.
+2. Alternatively, you can view the project on GitHub Pages: [Animations Homework](https://alashchev17.github.io/animations-homework/)
 
 ## Features
 
@@ -72,4 +73,4 @@ The `index.html` file contains the structure of the web page, including navigati
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
