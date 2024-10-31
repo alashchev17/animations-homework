@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Animations Homework</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <nav>
+          <a href="#page-1" class="page-link">First</a>
+          <a href="#page-2" class="page-link">Second</a>
+          <a href="#page-3" class="page-link">Third</a>
+          <a href="#page-4" class="page-link">Fourth</a>
+        </nav>
+      </header>
+      <main>
+        <section id="page-1">
+          <h1>Welcome!</h1>
+          <h2>First Page</h2>
+        </section>
+        <section id="page-2">
+          <h2>Second Page</h2>
+          <img src="./assets/bubble_tea.png" alt="Bobbing Image" class="bobbing-image" />
+        </section>
+        <section id="page-3">
+          <h2>Third Page</h2>
+          <div id="amazingCircle" class="circle"></div>
+          <button id="toggleAnimation">Start Animation</button>
+        </section>
+        <section id="page-4">
+          <h2>Fourth Page</h2>
+        </section>
+      </main>
+    </div>
+    <button id="scrollToTop" class="hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M12 8.5l-6 6 1.5 1.5L12 11.5l4.5 4.5L18 14.5l-6-6z" />
+      </svg>
+    </button>
+
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
